@@ -1,0 +1,24 @@
+Test Step,Test Data,Test Result
+1.Login as Admin,Username: Admin Password:admin123,"1.Verify that Admin is logged In succesfully     
+2. Verify that on dashboarad there are following sections- Quick Launch, Employee Distribution by Subunit, Lengend, Pending Leave Request."
+"1. Navigate  to Admin > User Management> Users
+2. Click on the column name on User Table
+3. Click on Add button > Enter test data > Save.
+","User Role: ESS
+Employee Name: Orange Test
+User Name: testemployee
+Status: Enabled
+Password: 63test49
+Confirm Password: 63test49","1. Verify that all users list appears
+2. Verify that Columns of User table sorting properly.
+3. Verify that user can be added
+"
+"1. From user list, click on the created users Username.
+2. Edit user> Change Status & Username > Save","Username: testemployee1
+Status: Disabled
+","1. Verify that Edit user window appears.
+2. Verify that user succesfully saved with edited data"
+1. On search section > type user name > click on Search button,User Name: testemployee1,"1. verify that by default User Role and Status setted to All in Search section
+2. verify that search is working properly."
+1. from user list select our created User > Click on deleted button,,1. Verify that User can be deleted
+,,
