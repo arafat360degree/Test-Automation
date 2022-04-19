@@ -1,0 +1,150 @@
+{
+	"id": "e64a5e05-1574-4069-8d02-b724660b9daa",
+	"name": "Orange HRM",
+	"timestamp": "2022-04-10T11:23:58.849Z",
+	"collection_id": "20017281-1cc2df96-97a1-4746-b102-fbad2ff1f155",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bc10ac18-b282-4fec-9abe-11a4a82d85ae",
+			"name": "Getting csrf Token",
+			"url": "https://opensource-demo.orangehrmlive.com/",
+			"time": 664,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				664
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2eecd3a0-4af0-48ce-909d-f68ab5eb329d",
+			"name": "Login as Admin",
+			"url": "https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials",
+			"time": 1426,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1426
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "15b149cb-31db-4d0f-9ef4-458955a4a4ec",
+			"name": "Getting Employee List",
+			"url": "https://opensource-demo.orangehrmlive.com/pim/viewEmployeeList/reset/1",
+			"time": 1604,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1604
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "300a721a-aca7-4869-8c2e-2b6b5acc4444",
+			"name": "Getting User List",
+			"url": "https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers",
+			"time": 698,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				698
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a67e1bbf-4b1e-45ab-9051-96b31f839259",
+			"name": "Adding a new System User",
+			"url": "https://opensource-demo.orangehrmlive.com/index.php/admin/saveSystemUser",
+			"time": 548,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				548
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d8f76a1c-d474-4a18-b061-2ad1297af18b",
+			"name": "Deleting a User",
+			"url": "https://opensource-demo.orangehrmlive.com/index.php/admin/deleteSystemUsers",
+			"time": 401,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				401
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5341,
+	"collection": {
+		"requests": [
+			{
+				"id": "bc10ac18-b282-4fec-9abe-11a4a82d85ae",
+				"method": "GET"
+			},
+			{
+				"id": "2eecd3a0-4af0-48ce-909d-f68ab5eb329d",
+				"method": "POST"
+			},
+			{
+				"id": "15b149cb-31db-4d0f-9ef4-458955a4a4ec",
+				"method": "GET"
+			},
+			{
+				"id": "300a721a-aca7-4869-8c2e-2b6b5acc4444",
+				"method": "GET"
+			},
+			{
+				"id": "a67e1bbf-4b1e-45ab-9051-96b31f839259",
+				"method": "POST"
+			},
+			{
+				"id": "d8f76a1c-d474-4a18-b061-2ad1297af18b",
+				"method": "POST"
+			}
+		]
+	}
+}
